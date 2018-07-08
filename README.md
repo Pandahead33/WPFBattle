@@ -13,6 +13,7 @@ First, an ICombat interface is needed for any combat. The example adds it as a p
 
 '''
 
+//Appears at top of class
 private ICombat encounter;
 
 '''
