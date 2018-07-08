@@ -11,12 +11,8 @@ A brief walkthrough of that code is here:
 
 First, an ICombat interface is needed for any combat. The example adds it as a private class variable. 
 
-'''
+>private ICombat encounter;
 
-//Appears at top of class
-private ICombat encounter;
-
-'''
 
 To initiate combat, we need to call a Combat object. Basically, which two parties are attacking each other. In general, this will be the play and a set of enemies. 
 
@@ -73,7 +69,7 @@ Note that this all is currently run through the console.
 Finally, start the combat thread! 
 
 '''
-            //Initalize combat 
+
             encounter = new Combat(playerParty, enemyParty, playerPartyName, enemyPartyName);
 
             CombatThread combatThread = new CombatThread(encounter);
